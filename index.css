@@ -1,0 +1,27 @@
+
+/*calendar*/
+.calendar_box{width: 1000px;height: 482px;border: 2px solid #a1bd92;margin-left: 50%;transform: translate(-500px,0);}
+.calendar_box .calendar_left{width: 75%;height: 100%;float: left;}
+.calendar_box .calendar_center{width: 25%;background-color: #a1bd92;height: 100%;float: left;}
+.calendar_tool{height: 51px;overflow: hidden;}
+.controls{display: inline-block;padding: 10px 0 8px 0;margin-left: 4.5%;}
+.controls>span{display: inline-block;width: 20px;height: 26px;vertical-align: top;}
+.y_next, .y_prev, .m_next, .m_prev{cursor: pointer;margin-top: 2px;}
+.controls .c_year,.controls .c_month, .butn_next{width: auto;padding: 0px 19px;overflow: hidden;border: 1px solid #ccc;border-radius: 3px;line-height: 27px;}
+.clendar_tool::after{content: '';height:0;clear: both;}
+.back_today{padding: 4px 14px;border: 1px solid #ccc;border-radius: 5px;float: right;margin: 10px 28px;cursor: pointer;}
+.calendar{height: 433px;border-top: 2px solid #a1bd92;}
+.calendar table{width: 100%;text-align: center;}
+.calendar table thead{background: #a1bd92;}
+.calendar th{height: 42px;text-align: center;}
+.calendar .onToday{background: #f7cb61;}
+.calendar .c_body tr{height: 65px;}
+.calendar .c_body tr td{width: 10%;border: 1px solid #a1bd92;}
+.calendar .c_body tr td span{font-size: 1.2rem;}
+.calendar .c_body .prevDay{opacity: 0.45;}
+.calendar_center{color:#fff;text-align: center;}
+.calendar_center .c_date{padding: 10px 0;font-size: 1.5rem;}
+.calendar_center .c_week{font-size: 1.2rem;}
+.calendar_center .c_day{font-size:4rem;display: inline-block;width: 70px;height: 70px;background: #f7cb61;line-height: 70px;margin: 15px 0;padding: 20%;}
+.calendar_center .c_lunar{font-size: 1.2rem;}
+.calendar_center .c_holiday span{width: 80%;background: #ff8621;display: inline-block;padding: 10px;margin-top: 10px;}

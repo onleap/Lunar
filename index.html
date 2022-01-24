@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-2.1.4.js"></script>
+    <script src="./lunar.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="calendar_box">
+        <div class="calendar_left">
+            <div class="calendar_tool">
+                <div class="controls">
+                    <span class="y_prev"><<</span>
+                    <span class="c_year"><span></span> 年</span>
+                    <span class="y_next">>></span>
+                </div>
+                <div class="controls">
+                    <span class="m_prev"><<</span>
+                    <span class="c_month"><span></span> 月</span>
+                    <span class="m_next">>></span>
+                </div>
+                <span class="back_today">返回今天</span>
+            </div>
+            <div class="calendar">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th class="c_red">六</th><th class="c_red">日</th></tr>
+                    </thead>
+                    <tbody class="c_body"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="calendar_center">
+            <div class="c_date"><span></span></div>
+            <div class="c_week"><span></span></div>
+            <div class="c_day"></div>
+            <div class="c_lunar">
+                <div></div>
+                <span></span>
+            </div>
+            <div class="c_holiday"></div>
+        </div>
+        <!-- <div class="calendar_right"></div> -->
+    </div>
+</body>
+</html>
